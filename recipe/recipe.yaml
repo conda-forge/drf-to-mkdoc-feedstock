@@ -33,6 +33,8 @@ requirements:
     - drf-spectacular >=0.26.0
     - mkdocs >=1.4.0
     - mkdocs-material >=9.0.0
+    #  mkdocs-material 9.6.20 has requirement click<8.2.2, but you have click 8.3.0.
+    - click <8.2.2
     - python-coreapi >=2.3.0
 
 tests:
