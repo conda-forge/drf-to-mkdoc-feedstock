@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: drf-to-mkdoc
-  version: "0.3.2"
+  version: "0.3.3"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/drf_to_mkdoc-${{ version }}.tar.gz
-  sha256: 00544962a42320a2aed1639488db5409dcbe38bd6a3d0b6971d00a5c21e669e4
+  sha256: 522f90387b2aaa2af840d904c61d319cbb47f0c11fe166e2884278f12fd14e79
 
 build:
   number: 0
