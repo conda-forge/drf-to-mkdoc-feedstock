@@ -5,7 +5,7 @@
 
 [workspace]
 name = "drf-to-mkdoc-feedstock"
-version = "3.53.3"  # conda-smithy version used to generate this file
+version = "3.54.1"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/drf-to-mkdoc-feedstock"
 authors = ["@conda-forge/drf-to-mkdoc"]
 channels = ["conda-forge"]
